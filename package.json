@@ -1,0 +1,22 @@
+{
+  "name": "ng-spectrum-colorpicker",
+  "version": "0.0.0",
+  "description": "angularjs colorpicker directive (spectrum-colorpicker)",
+  "main": "ng-spectrum-colorpicker.js",
+  "repository": "attrs/ng-spectrum-colorpicker",
+  "author": "joje <joje.attrs@gmail.com>",
+  "homepage": "https://github.com/attrs/ng-spectrum-colorpicker",
+  "license": "MIT",
+  "files": [
+    "*.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "jquery": "*",
+    "angular": "1.x"
+  },
+  "dependencies": {
+    "spectrum-colorpicker": "^1.8.0"
+  }
+}

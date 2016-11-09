@@ -3,7 +3,7 @@ require('spectrum-colorpicker');
 require('spectrum-colorpicker/spectrum.css');
 
 module.exports = angular.module('ngSpectrumColorPicker', [])
-  .directive('x-colorpicker', function(){
+  .directive('colorpicker', function(){
     return {
       require: '?ngModel',
       link: function (scope, elem, attrs, ngModel) {

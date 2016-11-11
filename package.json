@@ -1,6 +1,6 @@
 {
   "name": "ng-spectrum-colorpicker",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "angularjs colorpicker directive (spectrum-colorpicker)",
   "main": "ng-spectrum-colorpicker.js",
   "repository": "attrs/ng-spectrum-colorpicker",

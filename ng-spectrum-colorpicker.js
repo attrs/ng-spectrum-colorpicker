@@ -29,7 +29,7 @@ module.exports = angular.module('ngSpectrumColorPicker', [])
         });
         if (!ngModel) return;
         ngModel.$render = function () {
-          elem.spectrum('set', ngModel.$viewValue || '#3498db');
+          elem.spectrum('set', ngModel.$viewValue || '#fff');
         };
         elem.on('change', function () {
           scope.$apply(function () {

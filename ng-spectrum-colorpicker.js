@@ -36,6 +36,10 @@ module.exports = angular.module('ngSpectrumColorPicker', [])
             ngModel.$setViewValue(elem.val());
           });
         });
+        
+        scope.$on('$destroy', function() {
+          elem.spectrum('destroy');
+        });
       }
     }
   });
